@@ -3,6 +3,7 @@
 # Tereveni
 
 > Modern social media platform for communication, discussions and real-time interaction.
+
 > ⚠️ **Note:** The backend is hosted on a free-tier service and may take a few minutes to wake up after inactivity.
 
 [![Vercel](https://img.shields.io/badge/Live%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://terevenimo.vercel.app/)
