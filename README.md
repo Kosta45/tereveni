@@ -4,7 +4,7 @@
 
 > Modern social media platform for communication, discussions and real-time interaction.
 
-[![Vercel](https://img.shields.io/badge/Live%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://widi-rho.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Live%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://terevenimo.vercel.app/)
 [![Backend](https://img.shields.io/badge/Backend-GitHub-181717?style=flat-square&logo=github)](https://github.com/SehiiKolesnykov/final_project_back_2025)
 
 ---
@@ -271,7 +271,7 @@ As part of the frontend team, I contributed to:
 
 ## Frontend
 
-https://widi-rho.vercel.app/
+https://terevenimo.vercel.app/
 
 ## Backend
 
@@ -324,7 +324,7 @@ Some parts of the application can still be improved and expanded in the future, 
 
 > Сучасна соціальна мережа для спілкування, обміну думок та дискусій
 
-[![Vercel](https://img.shields.io/badge/Live%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://widi-rho.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Live%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://terevenimo.vercel.app/)
 [![Backend](https://img.shields.io/badge/Backend-GitHub-181717?style=flat-square&logo=github)](https://github.com/SehiiKolesnykov/final_project_back_2025)
 
 ---
@@ -518,7 +518,7 @@ src/
 
 ## Деплой
 
-**Frontend:** [Vercel](https://widi-rho.vercel.app/)  
+**Frontend:** [Vercel](https://terevenimo.vercel.app/)  
 **Backend:** [Backend репозиторій](https://github.com/SehiiKolesnykov/final_project_back_2025)
 
 ---
