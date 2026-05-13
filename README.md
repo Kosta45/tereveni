@@ -1,5 +1,5 @@
 
-````md
+
 # Tereveni
 
 > Modern social media platform for communication, discussions and real-time interaction.
@@ -312,10 +312,6 @@ This project was created as a learning team project and became valuable practica
 Some parts of the application can still be improved and expanded in the future, but the project already demonstrates real-world frontend development concepts and collaborative workflow experience.
 
 ---
-
-# Ukrainian Version (Original)
-
-Українська версія README нижче.
 
 ```
 ```
