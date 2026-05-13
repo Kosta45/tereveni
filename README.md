@@ -1,3 +1,209 @@
+
+Tereveni
+
+Modern social media platform for communication, discussions and real-time interaction.
+
+
+
+
+
+About the Project
+
+Tereveni is a social networking platform inspired by X (Twitter).
+The application allows users to share posts, participate in discussions, communicate in private chats, follow other users, and interact through likes, bookmarks, comments and real-time notifications.
+
+The project was created as a large educational team project focused on frontend architecture, real-time communication, state management, API integration and collaborative development.
+
+Features
+Authentication
+Registration and login with email/password
+Google OAuth authentication
+JWT-based authorization
+Automatic token refresh
+Protected routes
+Posts
+Create posts with text and images
+Edit and delete personal posts
+Upload images with Cloudinary
+Infinite feed scroll
+Sort posts:
+newest
+most popular
+most commented
+Social Interaction
+Post comments
+Likes system
+Save posts to favorites
+Follow/unfollow users
+Real-time notifications using WebSocket
+Real-time private chat using WebSocket
+Search & Filtering
+Search posts by content
+Search users by first and last name
+Real-time filtering
+UX/UI
+Responsive design
+Dark theme
+Confirmation modals
+Reusable UI components
+Optimistic UI updates
+Tech Stack
+Frontend
+├── React 18 + Vite           # Frontend framework and bundler
+├── Redux Toolkit             # Global state management
+├── React Router v6           # Routing
+├── Styled Components         # CSS-in-JS styling
+├── WebSocket + STOMP         # Real-time communication
+├── Cloudinary SDK            # Image uploading
+└── PropTypes                 # Props validation
+Backend
+├── Spring Boot (Java)        # REST API
+├── PostgreSQL                # Database
+├── JWT                       # Authentication
+└── Cloudinary                # Media storage
+Backend Repository
+
+Backend API repository:
+https://github.com/SehiiKolesnykov/final_project_back_2025
+
+Installation & Setup
+Requirements
+Node.js 18+
+npm
+Clone Repository
+git clone https://github.com/yarvil/widi.git
+Install Dependencies
+npm install
+Start Development Server
+npm run dev
+
+Application will be available at:
+
+http://localhost:5173
+Production Build
+npm run build
+npm run preview
+Project Structure
+src/
+├── api/                          # API requests and client configuration
+│   ├── auth.js
+│   ├── posts.js
+│   ├── comments.js
+│   ├── users.js
+│   ├── messages.js
+│   ├── notifications.js
+│   └── client.js
+│
+├── app/                          # Application configuration
+│   ├── store/                    # Redux Toolkit store
+│   │   ├── authentication/
+│   │   ├── posts/
+│   │   ├── users/
+│   │   ├── chat/
+│   │   ├── notifications/
+│   │   └── follows/
+│   │
+│   ├── router/                   # React Router configuration
+│   └── styles/                   # Global styles
+│
+├── hooks/                        # Custom React hooks
+│   ├── usePostActions.js
+│   ├── useUser.js
+│   ├── useChatWebSocket.js
+│   └── useNotificationsSocket.js
+│
+├── pages/                        # Application pages
+│   ├── auth/
+│   ├── feed/
+│   ├── post/
+│   ├── profile/
+│   ├── chat/
+│   ├── follow/
+│   ├── notifications/
+│   └── favoriteList/
+│
+├── shared/                       # Shared reusable modules
+│   ├── ui/                       # UI components
+│   ├── components/               # Business components
+│   ├── assets/                   # Icons and images
+│   └── utils/                    # Helper functions
+│
+└── main.jsx                      # Application entry point
+Technical Highlights
+Redux Architecture
+Redux Toolkit with createSlice
+Async logic using createAsyncThunk
+Backend data normalization
+Optimistic UI updates
+Infinite scroll pagination
+WebSocket Integration
+Real-Time Chat
+Private messaging between users
+STOMP protocol support
+Automatic reconnect handling
+Notifications
+Instant updates for:
+likes
+comments
+follows
+Components & Styling
+Styled Components architecture
+Reusable UI system
+Responsive layout
+PropTypes validation
+Performance & Optimization
+Lazy-loaded routes
+Search debounce
+Optimistic rendering
+API request separation
+My Contributions
+
+As part of the frontend team, I contributed to:
+
+Real-time chat functionality
+Redux Toolkit state management
+UI components
+REST API integration
+Authentication-related features
+Team collaboration and frontend architecture discussions
+Deployment
+Frontend
+
+https://widi-rho.vercel.app/
+
+Backend
+
+https://github.com/SehiiKolesnykov/final_project_back_2025
+
+Development Team
+Frontend Developers
+@yarvil
+@Kosta45
+@Mykola-Pyshnyuk
+@ruslanivanovich
+@arcanit33
+Backend Developers
+@SehiiKolesnykov
+@OleksiiZharkov
+@Olenka19965
+@AndreychykViktor
+Notes
+
+This project was created as a learning team project and became valuable practical experience in:
+
+frontend development
+team collaboration
+state management
+API integration
+WebSocket communication
+large-scale React application structure
+
+Some parts of the application can still be improved and expanded in the future, but the project already demonstrates real-world frontend development concepts and collaborative workflow experience.
+
+
+
+# Ukrainian Version (Original)
+
 # Теревені (Tereveni)
 
 > Сучасна соціальна мережа для спілкування, обміну думок та дискусій
